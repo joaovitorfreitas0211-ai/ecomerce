@@ -1,0 +1,21 @@
+.section3 {
+    padding: 30px 60px 60px;
+}
+
+.titulo2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.texto1 {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.texto1 p {
+    margin-bottom: 18px;
+}
