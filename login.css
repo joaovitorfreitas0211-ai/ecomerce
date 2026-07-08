@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    padding: 0 52px;
+    background: linear-gradient(90deg, #03898b, #08c6d3);
+}
+
+.div1 {
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 2px 2px 0 #08716f;
+}
+
+.div2 {
+    display: flex;
+    gap: 45px;
+}
+
+.div3, .div4, .div5, .divCarrinho, .div6, .div7 {
+    border-radius: 4px;
+    background: #202020;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+}
+
+.div3, .div4, .div5, .divCarrinho, .div6 {
+    padding: 8px 9px;
+}
+
+.div3 a, .div4 a, .div5 a, .divCarrinho a, .div6 a,
+.div3 a:visited, .div4 a:visited, .div5 a:visited, .divCarrinho a:visited, .div6 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.div7 {
+    display: grid;
+    place-items: center;
+    width: 31px;
+    height: 31px;
+}
+
+.section1 {
+    min-height: 353px;
+    padding-top: 36px;
+    text-align: center;
+}
+
+.div8 {
+    margin-bottom: 22px;
+    font-size: 22px;
+}
+
+.div9 {
+    margin-bottom: 33px;
+    font-size: 16px;
+}
+
+.div10, .div11, .div13 {
+    width: 113px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #292929;
+    color: white;
+    font-size: 14px;
+}
+
+.div10 {
+    margin-bottom: 25px;
+}
+
+.div11 {
+    margin-bottom: 28px;
+}
+
+.div12 {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 0.9;
+}
+
+.div13 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer1 {
+    display: flex;
+    gap: 105px;
+    min-height: 119px;
+    padding: 28px 0 0 130px;
+    background: #d9d9d9;
+    font-size: 9px;
+}
+
+.div15, .div16, .div17, .div18, .div20, .div21 {
+    margin-bottom: 17px;
+}

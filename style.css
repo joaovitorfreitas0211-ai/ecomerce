@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 0 48px;
+    background: linear-gradient(90deg, #03898b, #08c6d3);
+}
+.div1 {
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 2px 2px 0 #08716f;
+}
+.div2 {
+    display: flex;
+    gap: 45px;
+}
+.div3, .div4, .div5, .divCarrinho, .div6, .div7 {
+    border-radius: 4px;
+    background: #202020;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+.div3, .div4, .div5, .divCarrinho, .div6 {
+    padding: 9px 10px;
+}
+.div3 a, .div4 a, .div5 a, .divCarrinho a, .div6 a,
+.div3 a:visited, .div4 a:visited, .div5 a:visited, .divCarrinho a:visited, .div6 a:visited {
+    color: white;
+    text-decoration: none;
+}
+.div7 {
+    display: grid;
+    place-items: center;
+    width: 31px;
+    height: 31px;
+}
+.section1 {
+    padding-top: 34px;
+}
+.div8 {
+    width: calc(100% - 30px);
+    min-height: 126px;
+    margin: 0 auto;
+    padding: 28px 20px;
+    border-radius: 8px;
+    background: #6bd8dc;
+    text-align: center;
+    font-size: 20px;
+}
+.div9 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 16px 20px 60px;
+}
+.div10, .div14, .div18 {
+    width: 141px;
+    min-height: 174px;
+    padding: 11px 9px 16px;
+    border-radius: 7px;
+    background: #151515;
+    color: white;
+    text-align: center;
+}
+.div11, .div15, .div19 {
+    display: grid;
+    place-items: center;
+    width: 123px;
+    height: 116px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: white;
+    color: #888888;
+}
+.div12, .div16, .div20 {
+    font-size: 10px;
+}
+.div13, .div17, .div21 {
+    width: 104px;
+    margin: 1px auto 0;
+    padding: 8px 6px;
+    border-radius: 7px;
+    background: #ffbd59;
+    color: black;
+    font-size: 10px;
+}
+.footer1 {
+    display: flex;
+    gap: 105px;
+    min-height: 155px;
+    padding: 45px 0 0 130px;
+    background: #d9d9d9;
+    font-size: 9px;
+}
+.div23, .div24, .div25, .div26, .div28, .div29 {
+    margin-bottom: 20px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+}
+.img2{
+    width: 100px;
+    height: 60px;
+}
+.img3{
+    width: 100px;
+    height: 100px;
+}
+.logo1{
+    width: 100px;
+    height: 60px; 
+}
